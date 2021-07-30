@@ -1,0 +1,394 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+}
+
+.lists .list-items{
+    display: inline-block;
+}
+
+.list-items .lists-link{
+font-family: TT Hoves;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+color: black;
+padding: 20px;
+}
+
+.list-items .lists-link:hover{
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 10px;
+}
+
+.architect-img-div{
+    display: flex;
+}
+
+.project-nortown-main{
+font-family:TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color:#BDBDBD;
+}
+
+.project-nortown-sub{
+font-family: TT Hoves;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+}
+.project-heading-div{
+   border:1px solid green;
+}
+
+.project-heading{
+padding-top: 200px;
+text-align: center;
+}
+
+.arrow-box{
+    display: flex;
+    flex-direction:row;
+    padding-top: 90px;
+    }
+
+.arrow-left-div{
+ border: 1px solid rgba(242, 242, 242, 1);
+height: 53px;
+width: 53px;
+left: 0px;
+top: 0px;
+border-radius:0px;
+align-self: center;
+justify-content: center;
+text-align: center;
+}
+
+.arrow-right-div{
+    height: 53px;
+    width: 53px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    border: 1px solid rgba(242, 242, 242, 1);
+    background: rgba(249, 249, 249, 1);
+    margin-left:40px; 
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.arrow-left{
+    padding-top:15px;
+}
+
+.arrow-right{
+    padding-top:15px;
+}
+
+.nurtown-building{
+width: 100%;
+display: block;
+}
+
+.nurtown-image{
+height: 700px;
+}
+.nurtown-building-button{
+    background: rgba(255, 255, 255, 1);
+    justify-content: center;
+    border: 1px solid green;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    width: 222px;
+    height: 71px;
+    left:15px;
+    background: #FFFFFF;
+    z-index: 99999;
+    bottom: 1px;
+}
+.third-section{
+    background: rgba(251, 251, 251, 1);
+    margin-top: 120px;
+}
+
+.sect3-first-img{
+    padding-top: 30px;
+    height: 265px;
+width: 270px;
+border-radius: 0px;
+}
+.sect3-second-img{
+    padding-top: 30px;
+    height: 140px;
+width: 270px;
+border-radius: 0px;
+
+}
+.sect3-third-img{
+    padding-top: 60px;
+}
+.third-section-text{
+    padding-top: 30px;
+}
+.third-section-button{
+height: 71px;
+width: 222px;
+padding-top: 20px;
+border-radius: 0px;
+background: rgba(255, 255, 255, 1);
+
+}
+.third-section-paragraph{
+padding-top:20px;
+font-family: TT Hoves;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.numbering-tab{
+    padding-top: 94px;
+}
+.pagination-number{
+font-family: TT Hoves;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 5px;
+text-align: left; 
+color: #BDBDBD;
+}
+.third-section-btn-text{
+    text-align: center;
+    font-family: TT Hoves;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+}
+
+/* styling of 4th row*/
+.fourth-row-num1{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top:-40px;
+/* color:red; */
+}
+
+.fourth-row-paragraph{
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+height: 144px;
+width: 279px;
+}
+
+.fourth-row-paragraph-two{
+    height: 144px;
+width: 420px;
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.fourth-row-button{
+    text-align: center;
+}
+
+/* styling of 4th row end*/
+/* styling of 5th row start*/
+.fifth-row-heading{
+    height: 64px;
+width: 427px;
+font-family: TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0em;
+color: rgba(189,189,189,1);
+}
+
+.fifth-sect-first-img{
+height: 255px;
+width: 570px;
+background: linear-gradient(
+    0deg,
+    rgba(51, 51, 51, 0.8),
+    rgba(51, 51, 51, 0.8)
+  ),
+  url(../images/image\ 15.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+flex: 0 0 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0.8;
+}
+.fifth-sect-first-heading{
+    color: rgba(255, 255, 255, 1);
+    display: block;
+
+}
+.fifth-sect-heading-main{
+display: block;
+}
+.fifth-sect-arrow{
+    display: block;
+    color: rgba(255, 255, 255, 1);
+}
+.fifth-sect-second-row-div{
+    /*display: flex;
+    flex-direction: row; */
+}
+.fifth-sect-second-row-first-img{
+height: 255px;
+width: 100%;
+border: 1px solid red;
+display: block;
+}
+.fifth-sect-second-row-second-img{
+height: 255px;
+width: 500px;
+border: 1px solid green;
+}
+.fifth-sect-second-row-third-img{
+height: 255px;
+width: 370px;
+border: 1px solid maroon;
+}
+.TT{
+    /* margin: 5px; */
+    /* padding: 10px; */
+    border: 1PX solid green;
+}
+/* styling of 5th row start*/
+/* footer styling start here */
+.footer{
+    background-color:rgba(44, 44, 44, 1);
+}
+
+.footer{
+    padding-top:58px ;
+}
+
+.footer-logo{
+height: 94px;
+width: 145px;
+
+}
+
+.footer-lists .footer-lists-items{
+list-style-type: none;
+}
+.footer-lists-heading{
+    color:#FFFFFF;
+    height: 20px;
+    width: 103px;
+    font-family: TT Hoves;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.footer-lists .footer-lists-link{
+    color:#FFFFFF;
+    
+    
+}
+.footer-lists .footer-lists-link:hover{
+    text-decoration: none;
+}
+.address-contents{
+    display: flex;
+}
+.address-logo{
+    height: 16px;
+    width: 11px;
+    
+}
+.address-text{
+    height: 72px;
+    width: 314px;
+    color: #FFFFFF;
+    padding: 19px;
+    margin-top: -10%;
+
+}
+.phone-contents{
+    display: flex;
+    padding-top:32px;
+}
+.phone-logo{
+    height: 15.999984741210938px;
+width: 16.01043701171875px;
+
+}
+.phone-number{
+    color:#FFFFFF;
+    padding: 19px;
+    margin-top: -10%;
+}
+.mail-contents{
+    display: flex;
+    padding-top:32px;
+}
+.mail-logo{
+    height: 11px;
+    width: 16px;
+    
+}
+.email-address{
+    height: 24px;
+width: 181px;
+padding: 19px;
+margin-top: -10%;
+color:#FFFFFF;
+
+}
+/* footer styling ends here */
