@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
 }
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
 
 .lists .list-items{
     display: inline-block;
@@ -105,7 +110,9 @@ display: block;
 }
 
 .nurtown-image{
-height: 700px;
+    width: 100%;
+    display: block;
+    height: 700px;
 }
 .nurtown-building-button{
     background: rgba(255, 255, 255, 1);
@@ -130,18 +137,22 @@ height: 700px;
 .sect3-first-img{
     padding-top: 30px;
     height: 265px;
-width: 270px;
+width:100%;
+display: block;
 border-radius: 0px;
 }
 .sect3-second-img{
     padding-top: 30px;
     height: 140px;
-width: 270px;
+width: 100%;
 border-radius: 0px;
-
+display: block;
 }
 .sect3-third-img{
     padding-top: 60px;
+    width: 100%;
+    display: block;
+    height: 380px;
 }
 .third-section-text{
     padding-top: 30px;
@@ -243,6 +254,8 @@ font-weight: 300;
 line-height: 64px;
 letter-spacing: 0em;
 color: rgba(189,189,189,1);
+margin-bottom: 60px;
+
 }
 
 .fifth-sect-first-img{
@@ -281,6 +294,7 @@ display: block;
 .fifth-sect-second-row-div{
     margin-top: 30px;
 }
+
 .fifth-sect-second-row-first-img{
 height: 255px;
 width: 100%;
@@ -322,9 +336,7 @@ display: flex;
     align-items: center;
     display: flex;
 }
-.social-medias{
-    display: inline-block;
-}
+
 .social-media-img{
     color:#FFFFFF;
 }
@@ -355,7 +367,7 @@ display: flex;
 }
 .seventh-row-form input{
 height: 46px;
-width: 391px;
+width: 100%;
 background: rgba(243, 243, 243, 1);
 display: block;
 margin: 10px;
@@ -388,7 +400,8 @@ margin-top: 22px;
 
 .seventh-row-form .address{
     height: 147px;
-    width: 391px;
+    width: 100%;
+    display: block;
 }
 .address::placeholder{
 padding-top:-10%;
@@ -403,6 +416,7 @@ line-height: 17px;
 letter-spacing: 0.04em;
 text-align: left;
 }
+
 .mark-sign{
     position: absolute;
     bottom: 0px;
@@ -530,31 +544,315 @@ padding-bottom:24px
 .copy-right-div{
     padding-bottom:24px;
 }
+.number-text-div{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.number1-contents,.number2-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.number1-contents{
+    width: 100%;
+}
+.number2-contents{
+    width: 100%;
+}
+.num1{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top: -45px;
+}
+.text1{
+height: 144px;
+width: 279px;
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+}
+.num2{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top: -45px;
+
+}
+.text2{
+    height: 144px;
+    width: 420px;
+    font-family: TT Hoves;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+
+    
+}
+.instagram{
+    color: #fff;
+}
+#myNav,.hamburger-icon{
+    display: none;
+}
 
 /* footer styling ends here */
-/* media queries start here */
-@media  screen and (width:1024px){
+/*======================= media queries start here ============================*/
+@media  screen and (max-width:1024px){
+    .fourth-row-paragraph{
+        font-size: 17px;
+    }
+    .fourth-row-paragraph-two{
+        width: 300px;
+        font-size: 17px;
+
+    }
+    .fifth-row-heading{
+        font-size: 36px;
+    }
+
+.seventh-row-form-heading{
+    font-size: 36px;
+}
+.form-filling-div{
+    margin:30px;
+}
+.mark-sign{
+    left: 13%;
+}
+.address-text{
+    height: 120px;
+    width: 100%;
+    margin-top:-15%;
+}
+.phone-contents{
+    padding-top: 40px;
+}
+.phone-number{
+    margin-top: -11%;
+}
+.email-address{
+    margin-top: -12%;
+}
+}
+
+@media  screen and (max-width:768px){
+    .fourth-row-paragraph{
+        width: 246px;
+    }
+    .fourth-row-paragraph-two{
+        width: 270px
+    }
+}
+@media  screen and (max-width:767px){
+ /* styling of full overlay nav start here */
+ .loopstudio-logo{
+    position: absolute;
+    left: 6%;
+}
+.hamburger-icon{
+    top:3%;
+    display:block;
+    position:absolute;
+    right:7%;
+}
+.lists{
+    display:none;
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  } 
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 30%;
+    text-align: center;
+    margin-top: -36px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .closeNav{
+    position: absolute;
+    top: 8%;
+    right: 45px;
+  }
+
+  .hamburger-div{
+      display: none;
+  }
+
+/* styling of full overlay nav stop here */
+    
+    .mobile-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-heading{
+        padding-top: 40px;
+    }
+    .arrow-box{
+        padding-top: 20px;
+    }
+    .numbering-tab{
+        padding-top: 30px;
+    }
+    .nurtown-image{
+        height: 380px;
+    }
+    .num1{
+        font-size: 120px;
+    }
+    .text1{
+        width:230px;
+        font-size: 18px;
+    }
+    .num2{
+        font-size: 120px;
+    }
+    .text2{
+        /* width:230px; */
+        font-size: 18px;
+    }
+.fifth-sect-second-img{
+  margin-top: 10%;
+}
+.fifth-sect-second-row-second-img{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.footer-lists-heading{
+    margin-top: 5%;
+}
+.footer-list-div{
+margin-top: -10%;
+border:1px solid green;
 
 }
-@media  screen and (width:990px){
+.contact-contents{
+    margin-top: -5%;
+    border:1px solid yellow
+}
+.address-text{
+    margin-top: -5%;
+    width: 200px;
+}
+.phone-contents{
+    padding-top: 0px;
+}
+.phone-number{
+    margin-top: -4%;
+}
+.mail-contents{
+    padding-top: 0px;
+}
+
+.email-address{
+    margin-top: -5%;
+}
+.social-medias{
+    position:absolute;
+    top:57px;
+    left:10%;
+}
+}
+@media screen and (max-width:600px){
+    .text1{
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .text2{
+        width: 356px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:726px){
+    .form-filling-div{
+        display: none;
+    }
+    .text1{
+        border: 1px solid yellow;
+    }
+    .text2{
+       border: 1px solid green;
+       
+    }
+    .number1-contents{
+            border:2px solid green;
+            /* width: 100%; */
+    }
+    .number2-contents{
+        border:1px solid red;
+        /* width: 100%; */
+    }
+    img{
+        border:2px solid purple
+    }
+}
+@media screen and (max-width:425px){
+    .text1{
+        line-height: 33px;
+        border: 1px solid green;
+    }
+    .text2{
+        /* width: 256px; */
+    }
+    .form-filling-div{
+        /* display: none; */
+    }
+    .number-text-div{
+        /* display: none; */
+    }
+  
+}
+@media  screen and (max-width:375px){
     
 }
-@media  screen and (width:900px){
+@media  screen and (max-width:320px){
     
 }
-@media  screen and (width:768px){
-    
-}
-@media  screen and (width:600px){
-    
-}
-@media  screen and (width:475px){
-    
-}
-@media  screen and (width:375px){
-    
-}
-@media  screen and (width:320px){
-    
-}
+
 /* media queries ends here */

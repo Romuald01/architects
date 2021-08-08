@@ -7,27 +7,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- <link rel="stylesheet" href="https://typetype.org/fonts/tt-hoves/"> -->
+        <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Architects</title>
     </head>
     <body>
+          <!-- mobile nav start here -->
+    <div id="myNav" class="overlay">
+      <div class="mobilenav-overlay-header">
+        <img src="images/logo.png" alt="architects-logo" class="architects-logo" style="margin-top:5%;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close" class="closeNav">
+        </a>
+     </div>
+      
+      <div class="overlay-content">
+        <a href="#">>ГЛАВНАЯ</a>
+        <a href="#">ГАЛЕРЕЯ</a>
+        <a href="#">ПРОЕКТЫ</a>
+        <a href="#">СЕРТИФИКАТЫ</a> 
+        <a href="#">КОНТАКТЫ</a> 
+      </div>
+    </div>
+  <!-- mobile nav stop here -->
         <div class="container">
-            <div class="row header">
-                <div class="col-md-5">
-                    <div class="architect-img-div">
-                        <img src="images/logo.png" alt="logo">
-                    </div>
+        <div class="row header">
+            <div class="navigation col-md-12">
+                <div class="logo-box">
+                    <img src="images/logo.png" alt="architects-logo" class="header-logo">
                 </div>
-                <div class="col-md-7">
-                    <ul class="lists">
-                        <li class="list-items"><a href="#" class="lists-link">ГЛАВНАЯ</a></li>
-                        <li class="list-items"><a href="#" class="lists-link">ГАЛЕРЕЯ</a></li>
-                        <li class="list-items"><a href="#" class="lists-link">ПРОЕКТЫ</a></li>
-                        <li class="list-items"><a href="#" class="lists-link">СЕРТИФИКАТЫ</a></li>
-                        <li class="list-items"><a href="#" class="lists-link">КОНТАКТЫ</a></li>
-                    </ul>
+                <div class="lists-contents">
+                        <ul class="lists">
+                            <li class="list-items"><a href="#" class="lists-link">ГЛАВНАЯ</a></li>
+                            <li class="list-items"><a href="#" class="lists-link">ГАЛЕРЕЯ</a></li>
+                            <li class="list-items"><a href="#" class="lists-link">ПРОЕКТЫ</a></li>
+                            <li class="list-items"><a href="#" class="lists-link">СЕРТИФИКАТЫ</a></li>
+                            <li class="list-items"><a href="#" class="lists-link">КОНТАКТЫ</a></li>
+                        </ul>
                 </div>
+                <img src="images/icon-hamburger.svg" alt="icon-hamburger"  onclick="openNav()" class="hamburger-icon" style="margin-top:5%;">
             </div>
+        </div>
             <div class="row">
                 <div class="col-md-5 project-heading-div">
                     <div class="row">
@@ -107,28 +126,17 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <h6 class="fourth-row-num1">1</h6>
-                                </div>
-                                <div class="col-md-10">
-                                <p class="fourth-row-paragraph">Создание комфортных условий и повышение качества обслуживания клиентов</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                        <div class="row">
-                                <div class="col-md-3">
-                                    <h6 class="fourth-row-num1">2</h6>
-                                </div>
-                                <div class="col-md-9">
-                                <p class="fourth-row-paragraph-two">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
+                </div>
+            </div>
+            <div class="row number-text-div">
+                <div class="number1-contents">
+                    <span class="num1">1</span>
+                    <span class="text1">Создание комфортных условий и повышение качества обслуживания клиентов</span>
+                </div>
+                <div class="number2-contents">
+                    <span class="num2">2</span>
+                    <span class="text2">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</span>
+                             
                 </div>
             </div>
             <div class="row fifth-row">
@@ -138,16 +146,16 @@
                     </h1>
                 </div>
                 <div class="col-md-12">
-                    <div class="row">
+                    <div class="row first-two-img">
                         <div class="col-md-6 fifth-sect-first-img-div"> 
                             <img src="images/image 15.png" alt="fifth-sect-first-img" class="fifth-sect-first-img">   
-                            <div class="fifth-div-contents">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                            <!-- <div class="fifth-div-contents">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                                 <h1 class="fifth-sect-first-heading">
                                     <span class="fifth-sect-heading-main">ДОСУГОВЫЙ</span>
                                     <span class="fifth-sect-heading-sub">ЦЕНТР</span>
                                 </h1>
                                 <span class="fifth-sect-arrow">ПОДРОБНЕЕ<img src="images/arrow-right-white.svg" alt="arrow-right"></span>
-                                </div> 
+                            </div>  -->
                         </div>
                         <div class="col-md-6 fifth-sect-second-img-div">
                             <img src="images/image 15.png" alt="fifth-sect-second-img" class="fifth-sect-second-img">
@@ -170,7 +178,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="seventh-row-form-heading">Связаться с нами</h1>
-                    <div class="row">
+                    <div class="row form-filling-div">
                         <div class="col-md-6 seventh-row-form">
                             <div class="col-md-12">
                                 <form action="#" >
@@ -212,52 +220,58 @@
                         <div class="col-md-3 footer-contents-boxes">
                             <ul class="footer-lists">
                                 <h5 class="footer-lists-heading">Информация</h5>
+                                <div class="footer-list-div">
                                 <li class="footer-lists-items"><a href="#" class="footer-lists-link">Галерея</a></li>
                                 <li class="footer-lists-items"><a href="#" class="footer-lists-link">Галерея</a></li>
                                 <li class="footer-lists-items"><a href="#" class="footer-lists-link">Проекты</a></li>
                                 <li class="footer-lists-items"><a href="#" class="footer-lists-link">Сертификаты</a></li>
                                 <li class="footer-lists-items"><a href="#" class="footer-lists-link">Контакты</a></li>
+                            </div>
                             </ul>
                         </div>
 
                         <div class="col-md-3 footer-contents-boxes">
                             <h5 class="footer-lists-heading">Информация</h5>
-                            <div class="address-contents">
-                                <img src="images/address-logo.png" alt="address-logo" class="address-logo">
-                                <p class="address-text">
-                                100000, Республика  Казахстан, 
-                                г. Караганда, ул. Телевизионная 10
-                                </p>
+                            <div class="contact-contents">
+                                <div class="address-contents">
+                                    <img src="images/address-logo.png" alt="address-logo" class="address-logo">
+                                    <p class="address-text">
+                                    100000, Республика  Казахстан, 
+                                    г. Караганда, ул. Телевизионная 10
+                                    </p>
+                                </div>
+                                <div class="phone-contents ">
+                                    <img src="images/phone-call-logo.png" alt="address-logo" class="phone-logo">
+                                    <p class="phone-number">
+                                    +7 (701) 77 76 811
+                                    </p>
+                                </div>
+                                <div class="mail-contents">
+                                    <img src="images/mail-logo.png" alt="address-logo" class="mail-logo">
+                                    <p class="email-address">
+                                    Galym.sultanov@mail.ru
+                                    </p>
+                                </div>
                             </div>
-                            <div class="phone-contents ">
-                                <img src="images/phone-call-logo.png" alt="address-logo" class="phone-logo">
-                                <p class="phone-number">
-                                +7 (701) 77 76 811
-                                </p>
-                            </div>
-                            <div class="mail-contents">
-                                <img src="images/mail-logo.png" alt="address-logo" class="mail-logo">
-                                <p class="email-address">
-                                Galym.sultanov@mail.ru
-                                </p>
-                            </div>
-                        </div>
+                        </div>      
                         <div class="col-md-3 footer-contents-boxes">
                             <h5 class="footer-lists-heading footer-fourth-column-heading">Социальные сети</h5>
                             <div class="social-medias">
                                     <img src="images/shape1.png" alt="shape-one" class="social-media-img">
                                     <img src="images/shape2.png" alt="shape-one" class="social-media-img">
-                                    <div class="social-media-img white-back">in</div>
+                                    <i class="fab fa-instagram instagram"></i>
+                                    <i class="fa fas-facebook 2x instagram"></i>
                                     <img src="images/shape4.png" alt="shape-one" class="social-media-img">
                             </div>
-                        </div> 
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="col-md-12 copy-right-div pb-" style="border-top:1px solid #fff">  
+                <div class="col-md-12 copy-right-div" style="border-top:1px solid #fff">  
                     <p class="copyright-text">© 2019 Digital Project. Все права защищены.</p>
                 </div>
             </div>
-           
         </div>
-    </body>
+        <script src="js/app.js"></script>
+</body>
 </html>
