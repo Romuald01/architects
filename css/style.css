@@ -557,10 +557,10 @@ padding-bottom:24px
     padding: 50px;
 }
 .number1-contents{
-    width: 100%;
+    /* width: 100%; */
 }
 .number2-contents{
-    width: 100%;
+    /* width: 100%; */
 }
 .num1{
 height: 140px;
@@ -666,15 +666,18 @@ margin-top: -45px;
 }
 @media  screen and (max-width:767px){
  /* styling of full overlay nav start here */
- .loopstudio-logo{
+ .architects-logo{
     position: absolute;
-    left: 6%;
+    left: 40%;
 }
 .hamburger-icon{
     top:3%;
     display:block;
     position:absolute;
     right:7%;
+}
+#myNav{
+    display: block;
 }
 .lists{
     display:none;
@@ -687,24 +690,25 @@ margin-top: -45px;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: hsl(0, 0%, 0%);
-    background-color: hsl(0,0,0, 0.9);
+    background-color:rgba(44, 44, 44, 1);
+    background-color:rgba(44, 44, 44, 1);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.5s;;
   } 
   
   .overlay-content {
     position: relative;
-    top: 25%;
+    top: 12%;
     width: 30%;
-    text-align: center;
+    text-align: center;w
     margin-top: -36px;
+    z-index: 99999;
   }
   
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 24px;
     color: hsl(0, 0%, 100%);
     display: block;
     transition: 0.3s;
@@ -746,15 +750,15 @@ margin-top: -45px;
         font-size: 120px;
     }
     .text1{
-        width:230px;
-        font-size: 18px;
+        font-size: 18px; 
+       
     }
     .num2{
         font-size: 120px;
     }
     .text2{
-        /* width:230px; */
-        font-size: 18px;
+                font-size: 18px;
+      
     }
 .fifth-sect-second-img{
   margin-top: 10%;
@@ -808,6 +812,14 @@ border:1px solid green;
         font-size: 18px;
     }
 }
+@media screen and (max-width:585px){
+    .number2-contents{
+        border: 1px solid green;
+    }
+    .text2{
+        border: 1px solid ;
+    }
+}
 
 @media screen and (max-width:726px){
     .form-filling-div{
@@ -822,14 +834,13 @@ border:1px solid green;
     }
     .number1-contents{
             border:2px solid green;
-            /* width: 100%; */
     }
     .number2-contents{
         border:1px solid red;
-        /* width: 100%; */
     }
     img{
-        border:2px solid purple
+        border:2px solid purple;
+        display: none;
     }
 }
 @media screen and (max-width:425px){

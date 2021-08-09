@@ -15,13 +15,13 @@
           <!-- mobile nav start here -->
     <div id="myNav" class="overlay">
       <div class="mobilenav-overlay-header">
-        <img src="images/logo.png" alt="architects-logo" class="architects-logo" style="margin-top:5%;">
+        <img src="images/logo-white.png" alt="architects-logo" class="architects-logo" style="margin-top:5%;">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close" class="closeNav">
         </a>
      </div>
       
       <div class="overlay-content">
-        <a href="#">>ГЛАВНАЯ</a>
+        <a href="#">ГЛАВНАЯ</a>
         <a href="#">ГАЛЕРЕЯ</a>
         <a href="#">ПРОЕКТЫ</a>
         <a href="#">СЕРТИФИКАТЫ</a> 
@@ -214,7 +214,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="architect-img-div">
-                                <img src="images/footer-logo.png" alt="logo" class="footer-logo">
+                                <img src="images/logo-white.png" alt="logo" class="footer-logo">
                             </div>
                         </div>
                         <div class="col-md-3 footer-contents-boxes">
@@ -260,8 +260,7 @@
                                     <img src="images/shape1.png" alt="shape-one" class="social-media-img">
                                     <img src="images/shape2.png" alt="shape-one" class="social-media-img">
                                     <i class="fab fa-instagram instagram"></i>
-                                    <i class="fa fas-facebook 2x instagram"></i>
-                                    <img src="images/shape4.png" alt="shape-one" class="social-media-img">
+                            <img src="images/shape4.png" alt="shape-one" class="social-media-img">
                             </div>
                         </div>
                         
